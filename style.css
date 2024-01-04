@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+.hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  background: #1f2937;
+  padding: 0 15vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  margin: 96px 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 12px 0;
+}
+
+.secondary-text, a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background: #3882f6;
+  color: #eee;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  margin: 12px 0;
+}
+
+.hero-img {
+  flex: 1;
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
