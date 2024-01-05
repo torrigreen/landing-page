@@ -12,14 +12,15 @@ body {
   flex-flow: column;
   justify-content: space-around;
   background: #1f2937;
-  padding: 0 15vw;
+  padding: 24px 5vw 96px;
+  gap: 96px;
 }
 
-.header {
+.header, .hero-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 24px;
+  gap: 48px;
 }
 
 .logo {
@@ -37,14 +38,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.hero-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 48px;
-  margin: 96px 0;
 }
 
 .content {
