@@ -127,3 +127,30 @@ img {
   font-size: 24px;
   font-weight: 700;
 }
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: #3882f6;
+  border-radius: 8px;
+  padding: 3vw 9vw;
+  margin: 48px 8vw;
+}
+
+.text-title {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.text-sub {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.call-button {
+  flex: 0 0 auto;
+  border: 2px solid #eee;
+  border-radius: 8px;
+}
