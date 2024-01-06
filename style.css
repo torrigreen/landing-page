@@ -154,3 +154,10 @@ img {
   border: 2px solid #eee;
   border-radius: 8px;
 }
+
+.footer {
+  text-align: center;
+  color: #eee;
+  background: #1f2937;
+  padding: 24px;
+}
