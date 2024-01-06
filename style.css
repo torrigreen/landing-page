@@ -106,3 +106,24 @@ img {
 .info-img {
   border: 3px solid #3882f6;
 }
+
+.quote {
+  display: flex;
+  flex-flow: column;
+  background: #e5e7eb;
+  padding: 96px 15vw;
+  gap: 24px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-credit {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+}
