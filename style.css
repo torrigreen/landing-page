@@ -68,7 +68,7 @@ button {
 
 .hero-img {
   flex: 1;
-  min-width: 400px;
+  min-width: 300px;
   max-width: 1000px;
 }
 
